@@ -24,3 +24,13 @@ yarn add -D @types/socket.io
 * https://en.wikipedia.org/wiki/WebSocket
 * https://socket.io/docs/
 * https://docs.nestjs.com
+
+6. Test Socket works with Socket.io tester
+https://www.electronjs.org/apps/socket-io-tester
+
+Basic config:
+```
+Address: http://localhost:8765
+Namespace: global-channel
+Send Message: global-channel
+```
