@@ -32,6 +32,8 @@ Send Message: global-channel
 
 7. Add server-static package to serve a basic index.html `yarn add @nestjs/serve-static`
 8. Add VueJS HelloWorld
+9. Add socket.io Client & basic test msg
+  **Important** The socket-io server/client versions must be compatible
 
 ### Links
 
@@ -39,3 +41,6 @@ Send Message: global-channel
 * https://socket.io/docs/
 * https://docs.nestjs.com
 * https://v3.vuejs.org/guide/introduction.html
+* examples:
+ * https://medium.com/@phatdev/build-a-real-time-chat-application-with-websocket-socket-io-redis-and-docker-in-nestjs-499c2513c18
+ * https://blog.logrocket.com/scalable-websockets-with-nestjs-and-redis/
