@@ -17,9 +17,7 @@ $ nest new socket-io-tst
 yarn add @nestjs/websockets @nestjs/platform-socket.io
 yarn add -D @types/socket.io
 ```
-5. Add and config Logger `yarn add ngx-logger`
-
-6. Generate `General-Channel` module `nest g mo global-channel`
+5. Generate `Global-Channel` module `nest g mo global-channel`
 
 ### Links
 
