@@ -17,6 +17,7 @@ $ nest new socket-io-tst
 yarn add @nestjs/websockets @nestjs/platform-socket.io
 yarn add -D @types/socket.io
 ```
+
 5. Generate `Global-Channel` module `nest g mo global-channel`
 
 ### Links
@@ -34,3 +35,6 @@ Address: http://localhost:8765
 Namespace: global-channel
 Send Message: global-channel
 ```
+
+7. Add server-static package to serve a basic index.html `yarn add @nestjs/serve-static`
+8. Add VueJS HelloWorld
