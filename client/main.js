@@ -1,16 +1,14 @@
-window.onload = () => {
-  const HelloVueApp = {
-    data() {
-      return {
-        message: 'Hello Vue!!'
-      }
+const HelloVueApp = {
+  data() {
+    return {
+      message: 'Hello Vue!!'
     }
-  };
-  Vue.createApp(HelloVueApp).mount('#hello-vue');
-
-  const socket = io('http://localhost:8765/global-channel');
-  __msgLoop(socket, 1000);
+  }
 };
+Vue.createApp(HelloVueApp).mount('#hello-vue');
+
+const socket = io('http://localhost:8765/global-channel');
+__msgLoop(socket, 1000);
 
 function __msgLoop(socket, time) {
   setTimeout(
